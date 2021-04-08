@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test GifExpertApp.test.js Should be show the Component Correctly 1`] = `
+<Fragment>
+  <h2>
+     GiftExpertApp 
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GiftGrid
+      category="Naruto"
+      key="Naruto"
+    />
+  </ol>
+</Fragment>
+`;

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useState } from "react";
 
-
 const AddCategory = ( { setCategories } ) => {
 
     const [inputValue, setInputValue] = useState('');
@@ -25,6 +24,7 @@ const AddCategory = ( { setCategories } ) => {
     return (
         <>
             <form onSubmit={ handleSubmit }>
+                <p> { inputValue } </p>
                 <input
                     type="text"
                     value={inputValue}

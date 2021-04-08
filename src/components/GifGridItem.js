@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const GiftGridItem = ({ id, title, img }) => {
     //const GiftGridItem = ( props ) => {
@@ -12,6 +12,11 @@ const GiftGridItem = ({ id, title, img }) => {
 
     )
 
+}
+
+GiftGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired
 }
 
 export default GiftGridItem;
